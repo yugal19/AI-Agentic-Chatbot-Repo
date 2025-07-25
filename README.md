@@ -22,34 +22,13 @@ AI-Agentic-Chatbot is an intelligent chatbot system that allows users to query a
 git clone https://github.com/your-username/AI-Agentic-Chatbot.git
 cd AI-Agentic-Chatbot
 
+```
 
+### 2. Create Virtual env
 
+```bash
 python -m venv venv
-# Activate (use one of the below depending on OS)
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
-
-pip install -r requirements.txt
-
-
-uvicorn main:app --reload
-
-
-streamlit run frontend.py
-
-
-📦 Tech Stack
-Python
-
-FastAPI – for backend APIs
-
-Streamlit – for frontend UI
-
-Tavily API – for real-time search
-
-LLM – Agent-based conversational intelligence
+```
 
 
 
