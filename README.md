@@ -30,6 +30,26 @@ cd AI-Agentic-Chatbot
 python -m venv venv
 ```
 
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+
+### 4. Run the FastAPI backend
+
+```bash
+uvicorn main:app --reload
+```
+
+
+### 5. In another terminal, run the Streamlit frontend
+
+```bash
+streamlit run frontend.py
+```
+
 
 
 
